@@ -10,13 +10,13 @@ export class LoginPage {
   constructor(page: Page) {
     this.page = page;
     this.usernameInput = page.getByTestId('login-username');
-  this.passwordInput = page.getByTestId('login-password');
+    this.passwordInput = page.getByTestId('login-password');
     this.submitButton = page.getByRole('button', { name: 'Se connecter' });
     this.errorMessage = page.getByRole('alert');
   }
 
   async goto() {
-    await this.page.goto('/#/login');
+    await this.page.goto('https://lordrequiem.github.io/ecom-fake-website/#/login');
   }
 
   async login(username: string, password: string) {
