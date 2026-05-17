@@ -11,7 +11,7 @@ In my training sessions, the same question keeps coming up : how do you actually
 
 This repository explores how to integrate AI agents in Playwright in a structural way, not a decorative one.
 
-## What I'm building [les 4-5 points] 
+## What I'm building
 
 - An opinionated Playwright framework with clear conventions (naming, structure, fixtures)
 
@@ -27,4 +27,5 @@ Each significant step is documented here, commit by commit.
 Hit **Watch** on this repo to get notified on every significant commit.
 
 I share the decisions, the failures, and the pivots on LinkedIn. Follow along : https://www.linkedin.com/in/romuald-lenormand/
+
 If this is useful, a ⭐ helps others find it.
