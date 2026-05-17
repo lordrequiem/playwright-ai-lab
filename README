@@ -1,0 +1,30 @@
+# Playwright AI Lab
+
+> Opinionated Playwright × AI framework, built in public. 
+
+## The problem
+
+In my training sessions, the same question keeps coming up : how do you actually plug AI into a real Playwright setup ? There's plenty of Playwright content. Plenty of AI-in-testing content. Almost nothing on how the two fit together in a real framework, without relying on a proprietary tool.
+
+
+## The hypothesis
+
+This repository explores how to integrate AI agents in Playwright in a structural way, not a decorative one.
+
+## What I'm building [les 4-5 points] 
+
+- An opinionated Playwright framework with clear conventions (naming, structure, fixtures)
+
+- A fictional e-commerce demo site as the test target (ShopLab.qa) 
+
+- Progressive AI agent integrations: generation, healing, orchestration 
+
+- Honest documentation of what works, what breaks, and why 
+
+## How to follow 
+
+Each significant step is documented here, commit by commit.
+Hit **Watch** on this repo to get notified on every significant commit.
+
+I share the decisions, the failures, and the pivots on LinkedIn. Follow along : https://www.linkedin.com/in/romuald-lenormand/
+If this is useful, a ⭐ helps others find it.
