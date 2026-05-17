@@ -9,8 +9,8 @@ export class LoginPage {
 
   constructor(page: Page) {
     this.page = page;
-    this.usernameInput = page.getByLabel('Nom d\'utilisateur');
-    this.passwordInput = page.getByLabel('Mot de passe');
+    this.usernameInput = page.getByTestId('login-username');
+  this.passwordInput = page.getByTestId('login-password');
     this.submitButton = page.getByRole('button', { name: 'Se connecter' });
     this.errorMessage = page.getByRole('alert');
   }
